@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 50px;
+}
+.small_container {
+  display: flex;
+  height: 691px;
+  width: 1280px;
+  margin: 0 auto;
+  background-color: #fdde7e;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+.bronze {
+  margin: 126px 30px 125px 70px;
+  background: #fff;
+  height: 440px;
+  width: 360px;
+  border-radius: 3px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+.gold {
+  display: block;
+  margin: 90px 30px 90px 0;
+  background: #fff;
+  height: 510px;
+  width: 360px;
+  border-radius: 3px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+.silver {
+  display: block;
+  margin: 129px 70px 122px 0;
+  background: #fff;
+  height: 440px;
+  width: 360px;
+  border-radius: 3px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+.bronze .dol2 {
+  margin-top: 30px;
+}
+.gold .dol3 {
+  margin-top: 50px;
+}
+.silver .dol25 {
+  margin-top: 30px;
+}
+.bronze h2 {
+  margin-top: 40px;
+  font-size: 51px;
+  line-height: 65px;
+}
+.gold h2 {
+  margin-top: 20px;
+  font-size: 51px;
+  line-height: 65px;
+}
+.silver h2 {
+  margin-top: 40px;
+  font-size: 51px;
+  line-height: 65px;
+}
+.bronze p {
+  font-size: 20px;
+  line-height: 24px;
+}
+.gold p {
+  font-size: 20px;
+  line-height: 24px;
+}
+.silver p {
+  font-size: 20px;
+  line-height: 24px;
+}
