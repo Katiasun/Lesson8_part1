@@ -5,7 +5,7 @@
 }
 .container {
   font-family: "Montserrat", sans-serif;
-  margin-top: 50px;
+  margin-top: 150px;
 }
 .small_container {
   display: flex;
@@ -14,33 +14,32 @@
   margin: 0 auto;
   background-color: #fdde7e;
   text-align: center;
+  justify-content: center;
+  align-items: center;
   font-family: "Montserrat", sans-serif;
 }
-.bronze {
-  margin: 126px 30px 125px 70px;
-  background: #fff;
-  height: 440px;
+.box {
   width: 360px;
   border-radius: 3px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+.bronze {
+  display: block;
+  background: #fff;
+  padding: 30px 0;
+  margin: 0 30px;
 }
 .gold {
   display: block;
-  margin: 90px 30px 90px 0;
   background: #fff;
-  height: 510px;
-  width: 360px;
-  border-radius: 3px;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  padding: 50px 0;
+  margin: 0 30px;
 }
 .silver {
   display: block;
-  margin: 129px 70px 122px 0;
   background: #fff;
-  height: 440px;
-  width: 360px;
-  border-radius: 3px;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  padding: 30px 0;
+  margin: 0 30px;
 }
 .bronze .dol2 {
   margin-top: 30px;
