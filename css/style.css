@@ -23,7 +23,8 @@
   border-radius: 3px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
 }
-.bronze {
+.bronze,
+.silver {
   display: block;
   background: #fff;
   padding: 30px 0;
@@ -35,13 +36,9 @@
   padding: 50px 0;
   margin: 0 30px;
 }
-.silver {
-  display: block;
-  background: #fff;
-  padding: 30px 0;
-  margin: 0 30px;
-}
-.bronze .dol2 {
+
+.bronze .dol2,
+.silver .dol25 {
   margin-top: 30px;
   margin-bottom: 15px;
 }
@@ -49,33 +46,27 @@
   margin-top: 50px;
   margin-bottom: 30px;
 }
-.silver .dol25 {
-  margin-top: 30px;
-  margin-bottom: 15px;
+.dol2,
+.dol3,
+.dol25 {
+  color: #02995b;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 88px;
+  font-family: "Montserrat", sans-serif;
 }
-.bronze h2 {
-  margin-top: 40px;
-  font-size: 51px;
-  line-height: 65px;
-}
-.gold h2 {
-  margin-top: 20px;
-  font-size: 51px;
-  line-height: 65px;
-}
+
+.bronze h2,
+.gold h2,
 .silver h2 {
   margin-top: 40px;
   font-size: 51px;
   line-height: 65px;
 }
-.bronze p {
-  font-size: 20px;
-  line-height: 24px;
-}
-.gold p {
-  font-size: 20px;
-  line-height: 24px;
-}
+.bronze p,
+.gold p,
 .silver p {
   font-size: 20px;
   line-height: 24px;
